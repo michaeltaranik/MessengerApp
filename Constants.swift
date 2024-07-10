@@ -8,6 +8,23 @@
 
 struct K {
     static let appName = "⚡️FlashChat"
-    static let loginToChat = "LoginToChat"
-    static let registerToChat = "RegisterToChat"
+    static let cellIdentifier = "ReusableCell"
+    static let cellNibName = "MessageCellTableViewCell"
+    static let loginSeque = "LoginToChat"
+    static let registerSeque = "RegisterToChat"
+    
+    struct BrandColors {
+        static let purple = "BrandPurple"
+        static let lightPurple = "BrandLightPurple"
+        static let blue = "BrandBlue"
+        static let lightBlue = "BrandLightBlue"
+    }
+    
+    struct FStore {
+        static let collectionName = "messages"
+        static let senderField = "sender"
+        static let bodyField = "body"
+        static let dateField = "date"
+    }
+    
 }
