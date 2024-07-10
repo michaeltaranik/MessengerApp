@@ -16,12 +16,14 @@
 		0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818C235DF00B00E35CAF /* RegisterViewController.swift */; };
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
-		E4A955B52C3DB2ED009D7F11 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A955B42C3DB2ED009D7F11 /* CLTypingLabel.swift */; };
-		E4A955B72C3E7933009D7F11 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4A955B62C3E7933009D7F11 /* GoogleService-Info.plist */; };
+		E409E8192C3E895E0012295C /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E409E8182C3E895E0012295C /* CLTypingLabel.swift */; };
+		E409E81B2C3E8BFA0012295C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E409E81A2C3E8BFA0012295C /* GoogleService-Info.plist */; };
+		E409E8212C3E8FC20012295C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E409E8202C3E8FC20012295C /* FirebaseFirestore */; };
+		E409E8232C3E8FCE0012295C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E409E8222C3E8FCE0012295C /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B628173235DEE8100E35CAF /* FlashChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B628176235DEE8100E35CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B628178235DEE8100E35CAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B62817D235DEE8100E35CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,8 +34,8 @@
 		0B62818C235DF00B00E35CAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		0B62818E235DF01000E35CAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B628190235DF01B00E35CAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		E4A955B42C3DB2ED009D7F11 /* CLTypingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLTypingLabel.swift; sourceTree = "<group>"; };
-		E4A955B62C3E7933009D7F11 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E409E8182C3E895E0012295C /* CLTypingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLTypingLabel.swift; sourceTree = "<group>"; };
+		E409E81A2C3E8BFA0012295C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E409E8212C3E8FC20012295C /* FirebaseFirestore in Frameworks */,
+				E409E8232C3E8FCE0012295C /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,13 +56,14 @@
 			children = (
 				0B628175235DEE8100E35CAF /* Flash Chat iOS13 */,
 				0B628174235DEE8100E35CAF /* Products */,
+				E409E81F2C3E8FC20012295C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0B628174235DEE8100E35CAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B628173235DEE8100E35CAF /* FlashChat.app */,
+				0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,8 +77,9 @@
 				0B628193235DF03400E35CAF /* Views */,
 				0B628192235DF02000E35CAF /* Controllers */,
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
-				E4A955B62C3E7933009D7F11 /* GoogleService-Info.plist */,
+				E409E8182C3E895E0012295C /* CLTypingLabel.swift */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
+				E409E81A2C3E8BFA0012295C /* GoogleService-Info.plist */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
 			);
 			path = "Flash Chat iOS13";
@@ -83,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				0B62818A235DF00000E35CAF /* WelcomeViewController.swift */,
-				E4A955B42C3DB2ED009D7F11 /* CLTypingLabel.swift */,
 				0B62818C235DF00B00E35CAF /* RegisterViewController.swift */,
 				0B62818E235DF01000E35CAF /* LoginViewController.swift */,
 				0B628190235DF01B00E35CAF /* ChatViewController.swift */,
@@ -106,12 +111,19 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		E409E81F2C3E8FC20012295C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B628172235DEE8100E35CAF /* FlashChat */ = {
+		0B628172235DEE8100E35CAF /* Flash Chat iOS13 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "FlashChat" */;
+			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS13" */;
 			buildPhases = (
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
@@ -121,9 +133,13 @@
 			);
 			dependencies = (
 			);
-			name = FlashChat;
+			name = "Flash Chat iOS13";
+			packageProductDependencies = (
+				E409E8202C3E8FC20012295C /* FirebaseFirestore */,
+				E409E8222C3E8FCE0012295C /* FirebaseAuth */,
+			);
 			productName = "Flash Chat iOS13";
-			productReference = 0B628173235DEE8100E35CAF /* FlashChat.app */;
+			productReference = 0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,14 +151,14 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1540;
-				ORGANIZATIONNAME = "Michael Taranik";
+				ORGANIZATIONNAME = "Angela Yu";
 				TargetAttributes = {
 					0B628172235DEE8100E35CAF = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = 0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "FlashChat" */;
+			buildConfigurationList = 0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "Flash Chat iOS13" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,13 +168,13 @@
 			);
 			mainGroup = 0B62816A235DEE8100E35CAF;
 			packageReferences = (
-				E4A955B82C3E7EA0009D7F11 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E409E81C2C3E8D5E0012295C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B628172235DEE8100E35CAF /* FlashChat */,
+				0B628172235DEE8100E35CAF /* Flash Chat iOS13 */,
 			);
 		};
 /* End PBXProject section */
@@ -169,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
-				E4A955B72C3E7933009D7F11 /* GoogleService-Info.plist in Resources */,
+				E409E81B2C3E8BFA0012295C /* GoogleService-Info.plist in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
@@ -185,7 +201,7 @@
 				0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */,
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
-				E4A955B52C3DB2ED009D7F11 /* CLTypingLabel.swift in Sources */,
+				E409E8192C3E895E0012295C /* CLTypingLabel.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
@@ -339,12 +355,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9985Q9W5Q;
 				INFOPLIST_FILE = "Flash Chat iOS13/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taranik;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taranik.FlashChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -358,12 +374,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9985Q9W5Q;
 				INFOPLIST_FILE = "Flash Chat iOS13/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taranik;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taranik.FlashChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -373,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "FlashChat" */ = {
+		0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "Flash Chat iOS13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B628185235DEE8400E35CAF /* Debug */,
@@ -382,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "FlashChat" */ = {
+		0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B628188235DEE8400E35CAF /* Debug */,
@@ -394,7 +410,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E4A955B82C3E7EA0009D7F11 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		E409E81C2C3E8D5E0012295C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
@@ -403,6 +419,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E409E8202C3E8FC20012295C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E409E81C2C3E8D5E0012295C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E409E8222C3E8FCE0012295C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E409E81C2C3E8D5E0012295C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B62816B235DEE8100E35CAF /* Project object */;
 }

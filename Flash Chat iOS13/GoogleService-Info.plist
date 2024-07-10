@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDgTaUlRQlLImKXBRPX1L75Llqt8BzJQ7s</string>
+	<string>AIzaSyA7spIGpQ8SnXltpmkW5UClezqoJit1iaI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>46414799000</string>
+	<string>939707022140</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.taranik</string>
+	<string>com.taranik.FlashChat</string>
 	<key>PROJECT_ID</key>
-	<string>flashchatmichael</string>
+	<string>flashchat-ios-app-1bd74</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flashchatmichael.appspot.com</string>
+	<string>flashchat-ios-app-1bd74.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:46414799000:ios:31af9351bc7483860a70ed</string>
+	<string>1:939707022140:ios:e6cd76cff3868a37babc39</string>
 </dict>
 </plist>
